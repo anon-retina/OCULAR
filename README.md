@@ -29,43 +29,43 @@ POAG = primary open-angle glaucoma, AMD = age-related macular degeneration, H = 
 
 ### Training Datasets
 
-| Dataset | N | Center | FOV | Resolution (px) | Region | Pathologies |
-|--------|---|--------|-----|----------------|--------|-------------|
-| AVRDB | 100 | M,D | 45° | 1000×1054 | PK | HR |
-| DRIVE | 40 | M | 45° | 584×565 | NL | DR |
-| ENRICH | 111 | M,D | 45° | 1958×2196 | BE | -- |
-| FIVES-AV | 75 | M | 45° | 1444×1444 | CN | -- |
-| Fundus-AVSeg | 100 | M | 45° | 1280×1280 | CN | -- |
-| GAVE | 50 | M | 45° | 1536×1024 | CN | -- |
-| GRAPE | 81 | M,D | 50° | 1444×1444 | CN | G |
-| HRF | 45 | M | 45° | 3504×2336 | DE | DR,G |
-| INSPIRE | 15 | D | 30° | 1444×1444 | US | POAG |
-| LES-AV | 22 | D | 30° | 1620×1444 | BE | G |
-| Leuven-Haifa | 240 | D | 30° | 1444×1444 | BE | G |
-| MAGREBHIA | 69 | M,D | 30° | 1444×1444 | NAf | G |
-| MESSIDOR-AV | 66 | M | 45° | 1444×1444 | FR | DR |
-| PAPILA | 78 | D | 30° | 1444×1444 | ES | G |
+| Dataset | N | Center | FOV | Resolution (px) | Region | Pathologies | Download |
+|--------|---|--------|-----|----------------|--------|-------------| --------|
+| AVRDB | 100 | M,D | 45° | 1000×1054 | PK | HR | [[Link]](https://www.researchgate.net/publication/319165214_AVRDB_Annotated_Dataset_for_Vessel_Segmentation_and_Calculation_of_Arteriovenous_Ratio)
+| DRIVE | 40 | M | 45° | 584×565 | NL | DR | [[Link]](https://www.kaggle.com/datasets/andrewmvd/drive-digital-retinal-images-for-vessel-extraction)
+| ENRICH | 111 | M,D | 45° | 1958×2196 | BE | -- | [[Link]](https://www.kaggle.com/datasets/ba1b909c12dbe6c08df00b3ee6fc22d2fef632870359f91384b9001a870f67bf)
+| FIVES-AV | 75 | M | 45° | 1444×1444 | CN | -- | [[Link]](https://www.kaggle.com/datasets/ba1b909c12dbe6c08df00b3ee6fc22d2fef632870359f91384b9001a870f67bf)
+| Fundus-AVSeg | 100 | M | 45° | 1280×1280 | CN | -- | [[Link]](https://figshare.com/projects/Fundus-AVSeg_A_Fundus_Image_Dataset_for_AI-based_Artery-Vein_Vessel_Segmentation/229986)
+| GAVE | 50 | M | 45° | 1536×1024 | CN | -- |[[Link]](https://zenodo.org/records/15081506)
+| GRAPE | 81 | M,D | 50° | 1444×1444 | CN | G | [[Link]](https://www.kaggle.com/datasets/ba1b909c12dbe6c08df00b3ee6fc22d2fef632870359f91384b9001a870f67bf)
+| HRF | 45 | M | 45° | 3504×2336 | DE | DR,G | [[Link]](https://www5.cs.fau.de/research/data/fundus-images/)
+| INSPIRE | 15 | D | 30° | 1444×1444 | US | POAG | [[Link]](https://eye.medicine.uiowa.edu/inspire-datasets)
+| LES-AV | 22 | D | 30° | 1620×1444 | BE | G | [[Link]](https://figshare.com/articles/dataset/LES-AV_dataset/11857698)
+| Leuven-Haifa | 240 | D | 30° | 1444×1444 | BE | G | [[Link]](https://rdr.kuleuven.be/dataset.xhtml?persistentId=doi:10.48804/Z7SHGO)
+| MAGREBHIA | 69 | M,D | 30° | 1444×1444 | NAf | G |[[Link]](https://www.kaggle.com/datasets/ba1b909c12dbe6c08df00b3ee6fc22d2fef632870359f91384b9001a870f67bf)
+| MESSIDOR-AV | 66 | M | 45° | 1444×1444 | FR | DR | [[Link]](https://www.kaggle.com/datasets/ba1b909c12dbe6c08df00b3ee6fc22d2fef632870359f91384b9001a870f67bf)
+| PAPILA | 78 | D | 30° | 1444×1444 | ES | G | [[Link]](https://www.kaggle.com/datasets/ba1b909c12dbe6c08df00b3ee6fc22d2fef632870359f91384b9001a870f67bf)
 
 ---
 
 ### In-Distribution Test Datasets
 
-| Dataset | N | Center | FOV | Resolution (px) | Region | Pathologies |
-|--------|---|--------|-----|----------------|--------|-------------|
-| DualModal | 30 | M | 45° | 1024×1024 | CN | H |
-| UNAF | 15 | D | 45° | 1444×1444 | PY | DR |
+| Dataset | N | Center | FOV | Resolution (px) | Region | Pathologies | Download |
+|--------|---|--------|-----|----------------|--------|-------------| --------|
+| DualModal | 30 | M | 45° | 1024×1024 | CN | H | [[Link]](https://ieee-dataport.org/documents/dualmodal2019-dataset#files) |
+| UNAF | 15 | D | 45° | 1444×1444 | PY | DR | [[Link]](https://iopscience.iop.org/article/10.1088/1361-6579/ad3d28) |
 
 ---
 
 ### Out-of-Distribution Test Datasets
 
-| Dataset | N | Center | FOV | Resolution (px) | Region | Pathologies |
-|--------|---|--------|-----|----------------|--------|-------------|
-| AV-WIDE | 26 | M | 200° | 829×1531 | US | AMD |
-| IOSTAR-AV | 30 | M,D | 45° | 1024×1024 | NL | -- |
-| MBRSET | 30 | M | 30° | 1444×1444 | BR | DR |
-| RAVIR | 36 | D | 30° | 768×768 | US | DR,HR |
-| TREND-AV | 48 | M | 45° | 1444×1444 | ME | H |
+| Dataset | N | Center | FOV | Resolution (px) | Region | Pathologies | Download |
+|--------|---|--------|-----|----------------|--------|-------------| --------|
+| AV-WIDE | 26 | M | 200° | 829×1531 | US | AMD | [[Link]](https://www.kaggle.com/datasets/ba1b909c12dbe6c08df00b3ee6fc22d2fef632870359f91384b9001a870f67bf)
+| IOSTAR-AV | 30 | M,D | 45° | 1024×1024 | NL | -- | [[Link]](https://www.retinacheck.org/download-iostar-retinal-vessel-segmentation-dataset)
+| MBRSET | 30 | M | 30° | 1444×1444 | BR | DR | [[Link]](https://www.kaggle.com/datasets/ba1b909c12dbe6c08df00b3ee6fc22d2fef632870359f91384b9001a870f67bf)
+| RAVIR | 36 | D | 30° | 768×768 | US | DR,HR |[[Link]](https://ravirdataset.github.io/data/)
+| TREND-AV | 48 | M | 45° | 1444×1444 | ME | H | [[Link]](https://www.kaggle.com/datasets/ba1b909c12dbe6c08df00b3ee6fc22d2fef632870359f91384b9001a870f67bf)
 
 ---
 
