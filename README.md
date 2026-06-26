@@ -110,7 +110,7 @@ wget https://huggingface.co/Anon-User-Retina/OCULARNet-nano/resolve/main/nano_f5
 Clone the repository and install dependencies:
 
 ```bash
-git clone https://github.com/GonzaloPlaaza/OCULAR.git
+git clone https://github.com/anon-retina/OCULAR.git
 cd OCULAR
 pip install -r requirements.txt
 ```
