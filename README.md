@@ -243,7 +243,7 @@ class_to_color = {
 
 ![Vessel Refinement Tool](figures/vessel_refinement.png)
 
-*Figure 2. Vessel refinement tool screenshot with zoomed-in failure modes from a FIVES sample. Our tool allows the selection of class to correct, brush size,, independent zoom for each view (segmentation, original fundus image) and annotation export in .zip files. The three failure modes are: (top left) artery bifurcates into a vein, i.e., label swap across a segment; (middle) missed a/v crossing; (bottom right) small independent vessel for which a label cannot be confidently assigned, i.e. uncertain.*
+*Figure 2. Vessel refinement tool screenshot with zoomed-in failure modes from a FIVES sample. Our tool allows the selection of class to brush class (color) & size, independent zoom for each view (segmentation, left; original fundus image, right) and annotation export in .zip files. The three failure modes are: (top left) artery bifurcates into a vein, i.e., label swap across a segment; (middle) missed a/v crossing; (bottom right) small independent vessel for which a label cannot be confidently assigned, i.e. uncertain.*
 
 ### Usage
 
