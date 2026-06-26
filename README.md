@@ -107,7 +107,7 @@ Upon paper publication, we will release artery-vein segmentations extracted with
 Download the OCULARNet pre-trained weights from Hugging Face:
 
 ```bash
-wget https://huggingface.co/<USERNAME>/OCULARNet/resolve/main/OCULARNet.pth
+wget https://huggingface.co/Anon-User-Retina/OCULARNet/resolve/main/OCULARNet.pth
 ```
 
 - Model: `base_unet_repvgg_b3`
@@ -118,11 +118,11 @@ wget https://huggingface.co/<USERNAME>/OCULARNet/resolve/main/OCULARNet.pth
 Download the OCULARNet-nano ensemble weights from Hugging Face:
 
 ```bash
-wget https://huggingface.co/<USERNAME>/OCULARNet-nano/resolve/main/nano_f1.pth
-wget https://huggingface.co/<USERNAME>/OCULARNet-nano/resolve/main/nano_f2.pth
-wget https://huggingface.co/<USERNAME>/OCULARNet-nano/resolve/main/nano_f3.pth
-wget https://huggingface.co/<USERNAME>/OCULARNet-nano/resolve/main/nano_f4.pth
-wget https://huggingface.co/<USERNAME>/OCULARNet-nano/resolve/main/nano_f5.pth
+wget https://huggingface.co/Anon-User-Retina/OCULARNet-nano/resolve/main/nano_f1.pth
+wget https://huggingface.co/Anon-User-Retina/OCULARNet-nano/resolve/main/nano_f2.pth
+wget https://huggingface.co/Anon-User-Retina/OCULARNet-nano/resolve/main/nano_f3.pth
+wget https://huggingface.co/Anon-User-Retina/OCULARNet-nano/resolve/main/nano_f4.pth
+wget https://huggingface.co/Anon-User-Retina/OCULARNet-nano/resolve/main/nano_f5.pth
 ```
 
 - Model: `base_unet_repvgg_a0`
