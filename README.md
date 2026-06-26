@@ -229,8 +229,8 @@ If you use OCULAR or OCULARNet in your work, please cite:
 ```bash
 @inproceedings{OCULAR2026,
   title={Beyond Dice: Clinically Meaningful Large-Scale Retinal Artery/Vein Segmentation},
-  author={boring guys},
-  booktitle={MICCAI 2026},
+  author={},
+  booktitle={},
   year={2026}
 }
 ```
